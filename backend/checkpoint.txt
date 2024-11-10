@@ -1,0 +1,13 @@
+claude ai sudah sampai 2.d
+
+// Search by description
+GET /api/jobs?description=javascript
+
+// Search by location
+GET /api/jobs?location=berlin
+
+// Search for full-time positions
+GET /api/jobs?full_time=true
+
+// Combine multiple parameters
+GET /api/jobs?description=javascript&location=berlin&full_time=true
