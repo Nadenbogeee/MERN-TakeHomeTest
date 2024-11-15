@@ -126,7 +126,6 @@ router.get("/positions", authenticateToken, async (req, res) => {
 });
 
 //id
-// Add this to your routes/jobRoutes.js
 router.get("/positions/:id", authenticateToken, async (req, res) => {
   try {
     const { id } = req.params;
